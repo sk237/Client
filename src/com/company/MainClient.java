@@ -35,6 +35,7 @@ public class MainClient {
                         if (sendData.equals("/quit")) isThread = false;
                         else dataOutputStream.writeUTF(sendData);
 
+
                     } catch (Exception e) {
                     }
                 }
